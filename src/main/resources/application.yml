@@ -1,0 +1,13 @@
+server:
+  port: 7777
+
+spring:
+  activemq:
+    broker-url: tcp://192.168.1.204:61616
+    user: admin
+    password: admin
+  jms:
+    pub-sub-domain: false # Queue:false Topic:true
+
+# \u81EA\u5B9A\u4E49\u961F\u5217\u540D\u79F0
+queue-name: boot-queue
